@@ -6,7 +6,7 @@ testing
     Log To Console    i am alive
 *** Test Cases ***
 Test ",Test ',Test `,Test $,Test &,Test ;,Test |,Test <,Test ^,Test %,Test {},Test >
-    Log To Console    i am alive
+    testing
 Test "
     testing
 Test '
