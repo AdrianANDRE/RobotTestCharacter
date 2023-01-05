@@ -1,216 +1,216 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.0.1 (Python 3.8.10 on linux)" generated="20230105 15:21:47.850" rpa="false" schemaversion="3">
+<robot generator="Robot 6.0.1 (Python 3.8.10 on linux)" generated="20230105 15:30:12.310" rpa="false" schemaversion="3">
 <suite id="s1" name="Case" source="/home/adrian/TestMetaCharacter/test/case.robot">
-<test id="s1-t1" name="Test &quot;,Test ',Test `,Test $,Test &amp;,Test ;,Test |,Test &lt;,Test ^,Test %,Test {},Test &gt;, / tab () # 𨱏 👩‍❤️‍💋" line="8">
+<test id="s1-t1" name="Test &quot;,Test ',Test `,Test $,Test &amp;,Test ;,Test |,Test &lt;,Test ^,Test %,Test {},Test &gt;,Test  ,Test / ,Test tab ,Test () ,Test # ,Test 𨱏 ,Test 👩‍❤️‍💋" line="8">
 <kw name="testing">
 <kw name="Log To Console" library="BuiltIn">
 <arg>i am alive</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:21:48.310" endtime="20230105 15:21:48.311"/>
+<status status="PASS" starttime="20230105 15:30:12.799" endtime="20230105 15:30:12.800"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.310" endtime="20230105 15:21:48.311"/>
+<status status="PASS" starttime="20230105 15:30:12.798" endtime="20230105 15:30:12.800"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.305" endtime="20230105 15:21:48.312"/>
+<status status="PASS" starttime="20230105 15:30:12.794" endtime="20230105 15:30:12.801"/>
 </test>
 <test id="s1-t2" name="Test &quot;" line="10">
 <kw name="testing">
 <kw name="Log To Console" library="BuiltIn">
 <arg>i am alive</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:21:48.319" endtime="20230105 15:21:48.320"/>
+<status status="PASS" starttime="20230105 15:30:12.809" endtime="20230105 15:30:12.810"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.319" endtime="20230105 15:21:48.321"/>
+<status status="PASS" starttime="20230105 15:30:12.808" endtime="20230105 15:30:12.810"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.315" endtime="20230105 15:21:48.321"/>
+<status status="PASS" starttime="20230105 15:30:12.804" endtime="20230105 15:30:12.811"/>
 </test>
 <test id="s1-t3" name="Test '" line="12">
 <kw name="testing">
 <kw name="Log To Console" library="BuiltIn">
 <arg>i am alive</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:21:48.329" endtime="20230105 15:21:48.329"/>
+<status status="PASS" starttime="20230105 15:30:12.819" endtime="20230105 15:30:12.820"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.328" endtime="20230105 15:21:48.330"/>
+<status status="PASS" starttime="20230105 15:30:12.818" endtime="20230105 15:30:12.821"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.325" endtime="20230105 15:21:48.331"/>
+<status status="PASS" starttime="20230105 15:30:12.815" endtime="20230105 15:30:12.821"/>
 </test>
 <test id="s1-t4" name="Test `" line="14">
 <kw name="testing">
 <kw name="Log To Console" library="BuiltIn">
 <arg>i am alive</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:21:48.342" endtime="20230105 15:21:48.342"/>
+<status status="PASS" starttime="20230105 15:30:12.830" endtime="20230105 15:30:12.831"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.341" endtime="20230105 15:21:48.343"/>
+<status status="PASS" starttime="20230105 15:30:12.829" endtime="20230105 15:30:12.831"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.336" endtime="20230105 15:21:48.343"/>
+<status status="PASS" starttime="20230105 15:30:12.824" endtime="20230105 15:30:12.832"/>
 </test>
 <test id="s1-t5" name="Test $" line="16">
 <kw name="testing">
 <kw name="Log To Console" library="BuiltIn">
 <arg>i am alive</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:21:48.353" endtime="20230105 15:21:48.353"/>
+<status status="PASS" starttime="20230105 15:30:12.841" endtime="20230105 15:30:12.841"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.352" endtime="20230105 15:21:48.354"/>
+<status status="PASS" starttime="20230105 15:30:12.840" endtime="20230105 15:30:12.841"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.347" endtime="20230105 15:21:48.355"/>
+<status status="PASS" starttime="20230105 15:30:12.836" endtime="20230105 15:30:12.842"/>
 </test>
 <test id="s1-t6" name="Test &amp;" line="18">
 <kw name="testing">
 <kw name="Log To Console" library="BuiltIn">
 <arg>i am alive</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:21:48.362" endtime="20230105 15:21:48.363"/>
+<status status="PASS" starttime="20230105 15:30:12.850" endtime="20230105 15:30:12.851"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.362" endtime="20230105 15:21:48.364"/>
+<status status="PASS" starttime="20230105 15:30:12.850" endtime="20230105 15:30:12.851"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.359" endtime="20230105 15:21:48.365"/>
+<status status="PASS" starttime="20230105 15:30:12.847" endtime="20230105 15:30:12.852"/>
 </test>
 <test id="s1-t7" name="Test ;" line="20">
 <kw name="testing">
 <kw name="Log To Console" library="BuiltIn">
 <arg>i am alive</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:21:48.373" endtime="20230105 15:21:48.374"/>
+<status status="PASS" starttime="20230105 15:30:12.859" endtime="20230105 15:30:12.860"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.372" endtime="20230105 15:21:48.375"/>
+<status status="PASS" starttime="20230105 15:30:12.858" endtime="20230105 15:30:12.860"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.369" endtime="20230105 15:21:48.376"/>
+<status status="PASS" starttime="20230105 15:30:12.855" endtime="20230105 15:30:12.861"/>
 </test>
 <test id="s1-t8" name="Test |" line="22">
 <kw name="testing">
 <kw name="Log To Console" library="BuiltIn">
 <arg>i am alive</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:21:48.383" endtime="20230105 15:21:48.384"/>
+<status status="PASS" starttime="20230105 15:30:12.866" endtime="20230105 15:30:12.867"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.382" endtime="20230105 15:21:48.385"/>
+<status status="PASS" starttime="20230105 15:30:12.866" endtime="20230105 15:30:12.867"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.378" endtime="20230105 15:21:48.386"/>
+<status status="PASS" starttime="20230105 15:30:12.864" endtime="20230105 15:30:12.868"/>
 </test>
 <test id="s1-t9" name="Test &lt;" line="24">
 <kw name="testing">
 <kw name="Log To Console" library="BuiltIn">
 <arg>i am alive</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:21:48.393" endtime="20230105 15:21:48.394"/>
+<status status="PASS" starttime="20230105 15:30:12.875" endtime="20230105 15:30:12.876"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.393" endtime="20230105 15:21:48.394"/>
+<status status="PASS" starttime="20230105 15:30:12.874" endtime="20230105 15:30:12.876"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.389" endtime="20230105 15:21:48.395"/>
+<status status="PASS" starttime="20230105 15:30:12.871" endtime="20230105 15:30:12.878"/>
 </test>
 <test id="s1-t10" name="Test ^" line="26">
 <kw name="testing">
 <kw name="Log To Console" library="BuiltIn">
 <arg>i am alive</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:21:48.403" endtime="20230105 15:21:48.403"/>
+<status status="PASS" starttime="20230105 15:30:12.884" endtime="20230105 15:30:12.885"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.402" endtime="20230105 15:21:48.404"/>
+<status status="PASS" starttime="20230105 15:30:12.884" endtime="20230105 15:30:12.886"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.398" endtime="20230105 15:21:48.405"/>
+<status status="PASS" starttime="20230105 15:30:12.881" endtime="20230105 15:30:12.888"/>
 </test>
 <test id="s1-t11" name="Test %" line="28">
 <kw name="testing">
 <kw name="Log To Console" library="BuiltIn">
 <arg>i am alive</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:21:48.411" endtime="20230105 15:21:48.412"/>
+<status status="PASS" starttime="20230105 15:30:12.894" endtime="20230105 15:30:12.895"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.411" endtime="20230105 15:21:48.412"/>
+<status status="PASS" starttime="20230105 15:30:12.893" endtime="20230105 15:30:12.895"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.408" endtime="20230105 15:21:48.413"/>
+<status status="PASS" starttime="20230105 15:30:12.891" endtime="20230105 15:30:12.897"/>
 </test>
 <test id="s1-t12" name="Test {}" line="30">
 <kw name="testing">
 <kw name="Log To Console" library="BuiltIn">
 <arg>i am alive</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:21:48.421" endtime="20230105 15:21:48.421"/>
+<status status="PASS" starttime="20230105 15:30:12.904" endtime="20230105 15:30:12.905"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.420" endtime="20230105 15:21:48.422"/>
+<status status="PASS" starttime="20230105 15:30:12.903" endtime="20230105 15:30:12.906"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.417" endtime="20230105 15:21:48.423"/>
+<status status="PASS" starttime="20230105 15:30:12.900" endtime="20230105 15:30:12.907"/>
 </test>
 <test id="s1-t13" name="Test &gt;" line="32">
 <kw name="testing">
 <kw name="Log To Console" library="BuiltIn">
 <arg>i am alive</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:21:48.429" endtime="20230105 15:21:48.430"/>
+<status status="PASS" starttime="20230105 15:30:12.913" endtime="20230105 15:30:12.914"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.429" endtime="20230105 15:21:48.430"/>
+<status status="PASS" starttime="20230105 15:30:12.912" endtime="20230105 15:30:12.915"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.426" endtime="20230105 15:21:48.431"/>
+<status status="PASS" starttime="20230105 15:30:12.909" endtime="20230105 15:30:12.915"/>
 </test>
 <test id="s1-t14" name="Test \" line="34">
 <kw name="testing">
 <kw name="Log To Console" library="BuiltIn">
 <arg>i am alive</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:21:48.456" endtime="20230105 15:21:48.457"/>
+<status status="PASS" starttime="20230105 15:30:12.933" endtime="20230105 15:30:12.934"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.455" endtime="20230105 15:21:48.458"/>
+<status status="PASS" starttime="20230105 15:30:12.933" endtime="20230105 15:30:12.934"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.453" endtime="20230105 15:21:48.459"/>
+<status status="PASS" starttime="20230105 15:30:12.931" endtime="20230105 15:30:12.935"/>
 </test>
 <test id="s1-t15" name="Test /" line="36">
 <kw name="testing">
 <kw name="Log To Console" library="BuiltIn">
 <arg>i am alive</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:21:48.464" endtime="20230105 15:21:48.465"/>
+<status status="PASS" starttime="20230105 15:30:12.942" endtime="20230105 15:30:12.942"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.464" endtime="20230105 15:21:48.466"/>
+<status status="PASS" starttime="20230105 15:30:12.941" endtime="20230105 15:30:12.943"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.461" endtime="20230105 15:21:48.467"/>
+<status status="PASS" starttime="20230105 15:30:12.939" endtime="20230105 15:30:12.943"/>
 </test>
 <test id="s1-t16" name="Test ()" line="38">
 <kw name="testing">
 <kw name="Log To Console" library="BuiltIn">
 <arg>i am alive</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:21:48.475" endtime="20230105 15:21:48.475"/>
+<status status="PASS" starttime="20230105 15:30:12.949" endtime="20230105 15:30:12.950"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.474" endtime="20230105 15:21:48.476"/>
+<status status="PASS" starttime="20230105 15:30:12.949" endtime="20230105 15:30:12.951"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.471" endtime="20230105 15:21:48.476"/>
+<status status="PASS" starttime="20230105 15:30:12.947" endtime="20230105 15:30:12.951"/>
 </test>
 <test id="s1-t17" name="Test #" line="40">
 <kw name="testing">
 <kw name="Log To Console" library="BuiltIn">
 <arg>i am alive</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:21:48.483" endtime="20230105 15:21:48.484"/>
+<status status="PASS" starttime="20230105 15:30:12.959" endtime="20230105 15:30:12.959"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.482" endtime="20230105 15:21:48.485"/>
+<status status="PASS" starttime="20230105 15:30:12.958" endtime="20230105 15:30:12.960"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.479" endtime="20230105 15:21:48.486"/>
+<status status="PASS" starttime="20230105 15:30:12.955" endtime="20230105 15:30:12.961"/>
 </test>
 <test id="s1-t18" name="Test 𨱏" line="42">
 <kw name="testing">
 <kw name="Log To Console" library="BuiltIn">
 <arg>i am alive</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:21:48.493" endtime="20230105 15:21:48.494"/>
+<status status="PASS" starttime="20230105 15:30:12.967" endtime="20230105 15:30:12.968"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.493" endtime="20230105 15:21:48.494"/>
+<status status="PASS" starttime="20230105 15:30:12.967" endtime="20230105 15:30:12.968"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.489" endtime="20230105 15:21:48.495"/>
+<status status="PASS" starttime="20230105 15:30:12.964" endtime="20230105 15:30:12.968"/>
 </test>
 <test id="s1-t19" name="Test 👩‍❤️‍💋‍👨" line="44">
 <kw name="testing">
 <kw name="Log To Console" library="BuiltIn">
 <arg>i am alive</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:21:48.503" endtime="20230105 15:21:48.504"/>
+<status status="PASS" starttime="20230105 15:30:12.976" endtime="20230105 15:30:12.976"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.503" endtime="20230105 15:21:48.504"/>
+<status status="PASS" starttime="20230105 15:30:12.975" endtime="20230105 15:30:12.977"/>
 </kw>
-<status status="PASS" starttime="20230105 15:21:48.498" endtime="20230105 15:21:48.505"/>
+<status status="PASS" starttime="20230105 15:30:12.972" endtime="20230105 15:30:12.978"/>
 </test>
-<status status="PASS" starttime="20230105 15:21:47.853" endtime="20230105 15:21:48.509"/>
+<status status="PASS" starttime="20230105 15:30:12.315" endtime="20230105 15:30:12.981"/>
 </suite>
 <statistics>
 <total>

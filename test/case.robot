@@ -5,7 +5,7 @@ Library    Browser
 testing
     Log To Console    i am alive
 *** Test Cases ***
-Test ",Test ',Test `,Test $,Test &,Test ;,Test |,Test <,Test ^,Test %,Test {},Test >,\ / tab () # 𨱏 👩‍❤️‍💋
+Test ",Test ',Test `,Test $,Test &,Test ;,Test |,Test <,Test ^,Test %,Test {},Test >,Test \ ,Test / ,Test tab ,Test () ,Test # ,Test 𨱏 ,Test 👩‍❤️‍💋
     testing
 Test "
     testing
