@@ -1,0 +1,11 @@
+{"level":30,"time":"2023-01-05T13:50:39.622Z","pid":4977,"hostname":"NXQLX146","msg":"Listening on 56163"}
+{"level":30,"time":"2023-01-05T13:50:39.698Z","pid":4977,"hostname":"NXQLX146","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-01-05T13:50:39.699Z","pid":4977,"hostname":"NXQLX146","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-01-05T13:50:39.703Z","pid":4977,"hostname":"NXQLX146","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-01-05T13:50:39.703Z","pid":4977,"hostname":"NXQLX146","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-01-05T13:50:39.708Z","pid":4977,"hostname":"NXQLX146","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-01-05T13:50:39.708Z","pid":4977,"hostname":"NXQLX146","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-01-05T13:50:39.711Z","pid":4977,"hostname":"NXQLX146","msg":"Start of node method getBrowserCatalog"}
+{"level":30,"time":"2023-01-05T13:50:39.711Z","pid":4977,"hostname":"NXQLX146","msg":"End of node method getBrowserCatalog"}
+{"level":30,"time":"2023-01-05T13:50:39.727Z","pid":4977,"hostname":"NXQLX146","msg":"Start of node method closeAllBrowsers"}
+{"level":30,"time":"2023-01-05T13:50:39.727Z","pid":4977,"hostname":"NXQLX146","msg":"End of node method closeAllBrowsers"}
