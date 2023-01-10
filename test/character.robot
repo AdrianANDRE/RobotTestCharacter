@@ -1,6 +1,7 @@
 *** Settings ***
 Resource    myKeywords.resource
 *** Test Cases ***
+#There might be multiple matching error , but when your run your test it work , ide problem with no effect on tests 
 Test "
     testing "
 Test '
@@ -23,12 +24,12 @@ Test ^
     testing ^
 Test %test%
     testing %test%
-Test \$\{echo test\}
-    testing \$\{echo test\}    #There is an error here on your ide but the test work dont know how to correct it
-Test \
-    testing \
-Test /
-    testing /
+Test ${echo test}
+    testing \$\{echo test\}    
+Test \\
+    testing \\
+Test \/
+    testing \/
 Test $(echo test)
     testing $(echo test)
 Test #test
@@ -45,8 +46,8 @@ Test "test"
     testing "test"
 Test 'test'
     testing 'test'
-Test \$test
-    testing \$test
+Test \\$test
+    testing \\$test
 Test !
     testing !
 Test ?

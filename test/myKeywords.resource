@@ -27,12 +27,12 @@ testing ^
     logto    ^
 testing %test%
     logto    %test%
-testing \$\{echo test\}
-    logto    \$\{echo test\}
-testing \
-    logto    \
-testing /
-    logto    /
+testing ${echo test}
+    logto    ${echo test}
+testing \\
+    logto    \\
+testing \/
+    logto    \/
 testing $(echo test)
     logto    $(echo test)
 testing #test
@@ -49,8 +49,8 @@ testing "test"
     logto    "test"
 testing 'test'
     logto    'test'
-testing \$test
-    logto    \$test
+testing \\$test
+    logto    \\$test
 testing !
     logto    !
 testing ?
