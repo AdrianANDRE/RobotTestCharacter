@@ -1,5 +1,6 @@
 *** Settings ***
 Library    Browser
+Resource    myKeywords.resource
 
 *** Keywords ***
 testing
@@ -8,11 +9,11 @@ testing
 Test ",Test ',Test `,Test $,Test &,Test ;,Test |,Test <,Test ^,Test %,Test {},Test >,Test \ ,Test / ,Test tab ,Test () ,Test # ,Test 𨱏 ,Test 👩‍❤️‍💋
     testing
 Test "
-    testing
+    testing "
 Test '
-    testing
+    testing '
 Test `
-    testing
+    testing `
 Test $
     testing
 Test &
@@ -43,6 +44,9 @@ Test 𨱏
     testing
 Test 👩‍❤️‍💋‍👨 
     testing
+
+Test character
+    Given je suis fatigue
 
 
 

@@ -1,225 +1,406 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.0.1 (Python 3.8.10 on linux)" generated="20230105 15:30:12.310" rpa="false" schemaversion="3">
-<suite id="s1" name="Case" source="/home/adrian/TestMetaCharacter/test/case.robot">
-<test id="s1-t1" name="Test &quot;,Test ',Test `,Test $,Test &amp;,Test ;,Test |,Test &lt;,Test ^,Test %,Test {},Test &gt;,Test  ,Test / ,Test tab ,Test () ,Test # ,Test 𨱏 ,Test 👩‍❤️‍💋" line="8">
-<kw name="testing">
+<robot generator="Robot 6.0.1 (Python 3.8.10 on linux)" generated="20230110 14:00:03.454" rpa="false" schemaversion="3">
+<suite id="s1" name="Character" source="/home/adrian/TestMetaCharacter/test/character.robot">
+<test id="s1-t1" name="Test &quot;" line="4">
+<kw name="testing &quot;" library="myKeywords">
+<kw name="logto" library="myKeywords">
+<arg>"</arg>
 <kw name="Log To Console" library="BuiltIn">
-<arg>i am alive</arg>
+<arg>i am alive ${arg}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:30:12.799" endtime="20230105 15:30:12.800"/>
+<status status="PASS" starttime="20230110 14:00:03.907" endtime="20230110 14:00:03.907"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.798" endtime="20230105 15:30:12.800"/>
+<status status="PASS" starttime="20230110 14:00:03.906" endtime="20230110 14:00:03.908"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.794" endtime="20230105 15:30:12.801"/>
+<status status="PASS" starttime="20230110 14:00:03.905" endtime="20230110 14:00:03.908"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:03.901" endtime="20230110 14:00:03.909"/>
 </test>
-<test id="s1-t2" name="Test &quot;" line="10">
-<kw name="testing">
+<test id="s1-t2" name="Test '" line="6">
+<kw name="testing '" library="myKeywords">
+<kw name="logto" library="myKeywords">
+<arg>'</arg>
 <kw name="Log To Console" library="BuiltIn">
-<arg>i am alive</arg>
+<arg>i am alive ${arg}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:30:12.809" endtime="20230105 15:30:12.810"/>
+<status status="PASS" starttime="20230110 14:00:03.917" endtime="20230110 14:00:03.917"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.808" endtime="20230105 15:30:12.810"/>
+<status status="PASS" starttime="20230110 14:00:03.916" endtime="20230110 14:00:03.918"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.804" endtime="20230105 15:30:12.811"/>
+<status status="PASS" starttime="20230110 14:00:03.916" endtime="20230110 14:00:03.918"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:03.912" endtime="20230110 14:00:03.919"/>
 </test>
-<test id="s1-t3" name="Test '" line="12">
-<kw name="testing">
+<test id="s1-t3" name="Test ` echo test `" line="8">
+<kw name="testing ` echo test `" library="myKeywords">
+<kw name="logto" library="myKeywords">
+<arg>` echo test `</arg>
 <kw name="Log To Console" library="BuiltIn">
-<arg>i am alive</arg>
+<arg>i am alive ${arg}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:30:12.819" endtime="20230105 15:30:12.820"/>
+<status status="PASS" starttime="20230110 14:00:03.926" endtime="20230110 14:00:03.927"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.818" endtime="20230105 15:30:12.821"/>
+<status status="PASS" starttime="20230110 14:00:03.926" endtime="20230110 14:00:03.928"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.815" endtime="20230105 15:30:12.821"/>
+<status status="PASS" starttime="20230110 14:00:03.925" endtime="20230110 14:00:03.929"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:03.922" endtime="20230110 14:00:03.930"/>
 </test>
-<test id="s1-t4" name="Test `" line="14">
-<kw name="testing">
+<test id="s1-t4" name="Test $test" line="10">
+<kw name="testing $test" library="myKeywords">
+<kw name="logto" library="myKeywords">
+<arg>$test</arg>
 <kw name="Log To Console" library="BuiltIn">
-<arg>i am alive</arg>
+<arg>i am alive ${arg}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:30:12.830" endtime="20230105 15:30:12.831"/>
+<status status="PASS" starttime="20230110 14:00:03.939" endtime="20230110 14:00:03.940"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.829" endtime="20230105 15:30:12.831"/>
+<status status="PASS" starttime="20230110 14:00:03.939" endtime="20230110 14:00:03.941"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.824" endtime="20230105 15:30:12.832"/>
+<status status="PASS" starttime="20230110 14:00:03.937" endtime="20230110 14:00:03.941"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:03.933" endtime="20230110 14:00:03.941"/>
 </test>
-<test id="s1-t5" name="Test $" line="16">
-<kw name="testing">
+<test id="s1-t5" name="Test &amp; echo test" line="12">
+<kw name="testing &amp; echo test" library="myKeywords">
+<kw name="logto" library="myKeywords">
+<arg>&amp; echo test</arg>
 <kw name="Log To Console" library="BuiltIn">
-<arg>i am alive</arg>
+<arg>i am alive ${arg}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:30:12.841" endtime="20230105 15:30:12.841"/>
+<status status="PASS" starttime="20230110 14:00:03.949" endtime="20230110 14:00:03.949"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.840" endtime="20230105 15:30:12.841"/>
+<status status="PASS" starttime="20230110 14:00:03.949" endtime="20230110 14:00:03.950"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.836" endtime="20230105 15:30:12.842"/>
+<status status="PASS" starttime="20230110 14:00:03.948" endtime="20230110 14:00:03.950"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:03.945" endtime="20230110 14:00:03.950"/>
 </test>
-<test id="s1-t6" name="Test &amp;" line="18">
-<kw name="testing">
+<test id="s1-t6" name="Test ; echo toto" line="14">
+<kw name="testing ; echo toto" library="myKeywords">
+<kw name="logto" library="myKeywords">
+<arg>; echo toto</arg>
 <kw name="Log To Console" library="BuiltIn">
-<arg>i am alive</arg>
+<arg>i am alive ${arg}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:30:12.850" endtime="20230105 15:30:12.851"/>
+<status status="PASS" starttime="20230110 14:00:03.959" endtime="20230110 14:00:03.959"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.850" endtime="20230105 15:30:12.851"/>
+<status status="PASS" starttime="20230110 14:00:03.958" endtime="20230110 14:00:03.959"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.847" endtime="20230105 15:30:12.852"/>
+<status status="PASS" starttime="20230110 14:00:03.958" endtime="20230110 14:00:03.960"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:03.953" endtime="20230110 14:00:03.961"/>
 </test>
-<test id="s1-t7" name="Test ;" line="20">
-<kw name="testing">
+<test id="s1-t7" name="Test | echo toto" line="16">
+<kw name="testing | echo toto" library="myKeywords">
+<kw name="logto" library="myKeywords">
+<arg>| echo toto</arg>
 <kw name="Log To Console" library="BuiltIn">
-<arg>i am alive</arg>
+<arg>i am alive ${arg}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:30:12.859" endtime="20230105 15:30:12.860"/>
+<status status="PASS" starttime="20230110 14:00:03.969" endtime="20230110 14:00:03.969"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.858" endtime="20230105 15:30:12.860"/>
+<status status="PASS" starttime="20230110 14:00:03.968" endtime="20230110 14:00:03.969"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.855" endtime="20230105 15:30:12.861"/>
+<status status="PASS" starttime="20230110 14:00:03.967" endtime="20230110 14:00:03.970"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:03.965" endtime="20230110 14:00:03.971"/>
 </test>
-<test id="s1-t8" name="Test |" line="22">
-<kw name="testing">
+<test id="s1-t8" name="Test echo test &lt; /tmp" line="18">
+<kw name="testing echo test &lt; /tmp" library="myKeywords">
+<kw name="logto" library="myKeywords">
+<arg>echo test &lt; /tmp</arg>
 <kw name="Log To Console" library="BuiltIn">
-<arg>i am alive</arg>
+<arg>i am alive ${arg}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:30:12.866" endtime="20230105 15:30:12.867"/>
+<status status="PASS" starttime="20230110 14:00:03.979" endtime="20230110 14:00:03.980"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.866" endtime="20230105 15:30:12.867"/>
+<status status="PASS" starttime="20230110 14:00:03.978" endtime="20230110 14:00:03.981"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.864" endtime="20230105 15:30:12.868"/>
+<status status="PASS" starttime="20230110 14:00:03.977" endtime="20230110 14:00:03.981"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:03.974" endtime="20230110 14:00:03.981"/>
 </test>
-<test id="s1-t9" name="Test &lt;" line="24">
-<kw name="testing">
+<test id="s1-t9" name="Test echo test &gt; /tmp" line="20">
+<kw name="testing echo test &gt; /tmp" library="myKeywords">
+<kw name="logto" library="myKeywords">
+<arg>echo test &gt; /tmp</arg>
 <kw name="Log To Console" library="BuiltIn">
-<arg>i am alive</arg>
+<arg>i am alive ${arg}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:30:12.875" endtime="20230105 15:30:12.876"/>
+<status status="PASS" starttime="20230110 14:00:03.989" endtime="20230110 14:00:03.990"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.874" endtime="20230105 15:30:12.876"/>
+<status status="PASS" starttime="20230110 14:00:03.989" endtime="20230110 14:00:03.991"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.871" endtime="20230105 15:30:12.878"/>
+<status status="PASS" starttime="20230110 14:00:03.988" endtime="20230110 14:00:03.991"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:03.984" endtime="20230110 14:00:03.992"/>
 </test>
-<test id="s1-t10" name="Test ^" line="26">
-<kw name="testing">
+<test id="s1-t10" name="Test ^" line="22">
+<kw name="testing ^" library="myKeywords">
+<kw name="logto" library="myKeywords">
+<arg>^</arg>
 <kw name="Log To Console" library="BuiltIn">
-<arg>i am alive</arg>
+<arg>i am alive ${arg}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:30:12.884" endtime="20230105 15:30:12.885"/>
+<status status="PASS" starttime="20230110 14:00:04.013" endtime="20230110 14:00:04.014"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.884" endtime="20230105 15:30:12.886"/>
+<status status="PASS" starttime="20230110 14:00:04.013" endtime="20230110 14:00:04.014"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.881" endtime="20230105 15:30:12.888"/>
+<status status="PASS" starttime="20230110 14:00:04.012" endtime="20230110 14:00:04.014"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.010" endtime="20230110 14:00:04.014"/>
 </test>
-<test id="s1-t11" name="Test %" line="28">
-<kw name="testing">
+<test id="s1-t11" name="Test %test%" line="24">
+<kw name="testing %test%" library="myKeywords">
+<kw name="logto" library="myKeywords">
+<arg>%test%</arg>
 <kw name="Log To Console" library="BuiltIn">
-<arg>i am alive</arg>
+<arg>i am alive ${arg}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:30:12.894" endtime="20230105 15:30:12.895"/>
+<status status="PASS" starttime="20230110 14:00:04.022" endtime="20230110 14:00:04.023"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.893" endtime="20230105 15:30:12.895"/>
+<status status="PASS" starttime="20230110 14:00:04.021" endtime="20230110 14:00:04.024"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.891" endtime="20230105 15:30:12.897"/>
+<status status="PASS" starttime="20230110 14:00:04.020" endtime="20230110 14:00:04.024"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.017" endtime="20230110 14:00:04.025"/>
 </test>
-<test id="s1-t12" name="Test {}" line="30">
-<kw name="testing">
+<test id="s1-t12" name="Test ${echo test}" line="26">
+<kw name="testing \$\{echo test\}" library="myKeywords">
+<kw name="logto" library="myKeywords">
+<arg>\$\{echo test\}</arg>
 <kw name="Log To Console" library="BuiltIn">
-<arg>i am alive</arg>
+<arg>i am alive ${arg}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:30:12.904" endtime="20230105 15:30:12.905"/>
+<status status="PASS" starttime="20230110 14:00:04.033" endtime="20230110 14:00:04.034"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.903" endtime="20230105 15:30:12.906"/>
+<status status="PASS" starttime="20230110 14:00:04.032" endtime="20230110 14:00:04.034"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.900" endtime="20230105 15:30:12.907"/>
+<status status="PASS" starttime="20230110 14:00:04.031" endtime="20230110 14:00:04.034"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.028" endtime="20230110 14:00:04.035"/>
 </test>
-<test id="s1-t13" name="Test &gt;" line="32">
-<kw name="testing">
+<test id="s1-t13" name="Test " line="28">
+<kw name="testing \" library="myKeywords">
+<kw name="logto" library="myKeywords">
+<arg>\</arg>
 <kw name="Log To Console" library="BuiltIn">
-<arg>i am alive</arg>
+<arg>i am alive ${arg}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:30:12.913" endtime="20230105 15:30:12.914"/>
+<status status="PASS" starttime="20230110 14:00:04.044" endtime="20230110 14:00:04.045"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.912" endtime="20230105 15:30:12.915"/>
+<status status="PASS" starttime="20230110 14:00:04.044" endtime="20230110 14:00:04.045"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.909" endtime="20230105 15:30:12.915"/>
+<status status="PASS" starttime="20230110 14:00:04.043" endtime="20230110 14:00:04.045"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.039" endtime="20230110 14:00:04.046"/>
 </test>
-<test id="s1-t14" name="Test \" line="34">
-<kw name="testing">
+<test id="s1-t14" name="Test /" line="30">
+<kw name="testing /" library="myKeywords">
+<kw name="logto" library="myKeywords">
+<arg>/</arg>
 <kw name="Log To Console" library="BuiltIn">
-<arg>i am alive</arg>
+<arg>i am alive ${arg}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:30:12.933" endtime="20230105 15:30:12.934"/>
+<status status="PASS" starttime="20230110 14:00:04.055" endtime="20230110 14:00:04.056"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.933" endtime="20230105 15:30:12.934"/>
+<status status="PASS" starttime="20230110 14:00:04.055" endtime="20230110 14:00:04.057"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.931" endtime="20230105 15:30:12.935"/>
+<status status="PASS" starttime="20230110 14:00:04.053" endtime="20230110 14:00:04.058"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.049" endtime="20230110 14:00:04.059"/>
 </test>
-<test id="s1-t15" name="Test /" line="36">
-<kw name="testing">
+<test id="s1-t15" name="Test $(echo test)" line="32">
+<kw name="testing $(echo test)" library="myKeywords">
+<kw name="logto" library="myKeywords">
+<arg>$(echo test)</arg>
 <kw name="Log To Console" library="BuiltIn">
-<arg>i am alive</arg>
+<arg>i am alive ${arg}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:30:12.942" endtime="20230105 15:30:12.942"/>
+<status status="PASS" starttime="20230110 14:00:04.067" endtime="20230110 14:00:04.068"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.941" endtime="20230105 15:30:12.943"/>
+<status status="PASS" starttime="20230110 14:00:04.065" endtime="20230110 14:00:04.068"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.939" endtime="20230105 15:30:12.943"/>
+<status status="PASS" starttime="20230110 14:00:04.064" endtime="20230110 14:00:04.068"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.062" endtime="20230110 14:00:04.070"/>
 </test>
-<test id="s1-t16" name="Test ()" line="38">
-<kw name="testing">
+<test id="s1-t16" name="Test #test" line="34">
+<kw name="testing #test" library="myKeywords">
+<kw name="logto" library="myKeywords">
+<arg>\#test</arg>
 <kw name="Log To Console" library="BuiltIn">
-<arg>i am alive</arg>
+<arg>i am alive ${arg}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:30:12.949" endtime="20230105 15:30:12.950"/>
+<status status="PASS" starttime="20230110 14:00:04.078" endtime="20230110 14:00:04.079"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.949" endtime="20230105 15:30:12.951"/>
+<status status="PASS" starttime="20230110 14:00:04.078" endtime="20230110 14:00:04.079"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.947" endtime="20230105 15:30:12.951"/>
+<status status="PASS" starttime="20230110 14:00:04.077" endtime="20230110 14:00:04.079"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.075" endtime="20230110 14:00:04.080"/>
 </test>
-<test id="s1-t17" name="Test #" line="40">
-<kw name="testing">
+<test id="s1-t17" name="Test 𨱏" line="36">
+<kw name="testing 𨱏" library="myKeywords">
+<kw name="logto" library="myKeywords">
+<arg>𨱏</arg>
 <kw name="Log To Console" library="BuiltIn">
-<arg>i am alive</arg>
+<arg>i am alive ${arg}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:30:12.959" endtime="20230105 15:30:12.959"/>
+<status status="PASS" starttime="20230110 14:00:04.089" endtime="20230110 14:00:04.091"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.958" endtime="20230105 15:30:12.960"/>
+<status status="PASS" starttime="20230110 14:00:04.088" endtime="20230110 14:00:04.091"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.955" endtime="20230105 15:30:12.961"/>
+<status status="PASS" starttime="20230110 14:00:04.087" endtime="20230110 14:00:04.092"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.084" endtime="20230110 14:00:04.092"/>
 </test>
-<test id="s1-t18" name="Test 𨱏" line="42">
-<kw name="testing">
+<test id="s1-t18" name="Test 👩‍❤️‍💋‍👨" line="38">
+<kw name="testing 👩‍❤️‍💋‍👨" library="myKeywords">
+<kw name="logto" library="myKeywords">
+<arg>👩‍❤️‍💋‍👨</arg>
 <kw name="Log To Console" library="BuiltIn">
-<arg>i am alive</arg>
+<arg>i am alive ${arg}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:30:12.967" endtime="20230105 15:30:12.968"/>
+<status status="PASS" starttime="20230110 14:00:04.101" endtime="20230110 14:00:04.102"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.967" endtime="20230105 15:30:12.968"/>
+<status status="PASS" starttime="20230110 14:00:04.101" endtime="20230110 14:00:04.102"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.964" endtime="20230105 15:30:12.968"/>
+<status status="PASS" starttime="20230110 14:00:04.100" endtime="20230110 14:00:04.103"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.095" endtime="20230110 14:00:04.104"/>
 </test>
-<test id="s1-t19" name="Test 👩‍❤️‍💋‍👨" line="44">
-<kw name="testing">
+<test id="s1-t19" name="Test [test]" line="40">
+<kw name="testing [test]" library="myKeywords">
+<kw name="logto" library="myKeywords">
+<arg>[test]</arg>
 <kw name="Log To Console" library="BuiltIn">
-<arg>i am alive</arg>
+<arg>i am alive ${arg}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230105 15:30:12.976" endtime="20230105 15:30:12.976"/>
+<status status="PASS" starttime="20230110 14:00:04.112" endtime="20230110 14:00:04.113"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.975" endtime="20230105 15:30:12.977"/>
+<status status="PASS" starttime="20230110 14:00:04.112" endtime="20230110 14:00:04.114"/>
 </kw>
-<status status="PASS" starttime="20230105 15:30:12.972" endtime="20230105 15:30:12.978"/>
+<status status="PASS" starttime="20230110 14:00:04.111" endtime="20230110 14:00:04.115"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.108" endtime="20230110 14:00:04.117"/>
 </test>
-<status status="PASS" starttime="20230105 15:30:12.315" endtime="20230105 15:30:12.981"/>
+<test id="s1-t20" name="Test ^^" line="42">
+<kw name="testing ^^" library="myKeywords">
+<kw name="logto" library="myKeywords">
+<arg>^^</arg>
+<kw name="Log To Console" library="BuiltIn">
+<arg>i am alive ${arg}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230110 14:00:04.127" endtime="20230110 14:00:04.127"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.126" endtime="20230110 14:00:04.127"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.126" endtime="20230110 14:00:04.128"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.121" endtime="20230110 14:00:04.129"/>
+</test>
+<test id="s1-t21" name="Test &quot;test&quot;" line="44">
+<kw name="testing &quot;test&quot;" library="myKeywords">
+<kw name="logto" library="myKeywords">
+<arg>"test"</arg>
+<kw name="Log To Console" library="BuiltIn">
+<arg>i am alive ${arg}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230110 14:00:04.141" endtime="20230110 14:00:04.142"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.140" endtime="20230110 14:00:04.142"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.136" endtime="20230110 14:00:04.142"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.132" endtime="20230110 14:00:04.143"/>
+</test>
+<test id="s1-t22" name="Test 'test'" line="46">
+<kw name="testing 'test'" library="myKeywords">
+<kw name="logto" library="myKeywords">
+<arg>'test'</arg>
+<kw name="Log To Console" library="BuiltIn">
+<arg>i am alive ${arg}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230110 14:00:04.152" endtime="20230110 14:00:04.154"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.151" endtime="20230110 14:00:04.155"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.149" endtime="20230110 14:00:04.156"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.146" endtime="20230110 14:00:04.157"/>
+</test>
+<test id="s1-t23" name="Test $test" line="48">
+<kw name="testing \$test" library="myKeywords">
+<kw name="logto" library="myKeywords">
+<arg>\$test</arg>
+<kw name="Log To Console" library="BuiltIn">
+<arg>i am alive ${arg}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230110 14:00:04.165" endtime="20230110 14:00:04.166"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.164" endtime="20230110 14:00:04.167"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.163" endtime="20230110 14:00:04.168"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.161" endtime="20230110 14:00:04.168"/>
+</test>
+<test id="s1-t24" name="Test !" line="50">
+<kw name="testing !" library="myKeywords">
+<kw name="logto" library="myKeywords">
+<arg>!</arg>
+<kw name="Log To Console" library="BuiltIn">
+<arg>i am alive ${arg}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230110 14:00:04.178" endtime="20230110 14:00:04.178"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.177" endtime="20230110 14:00:04.179"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.176" endtime="20230110 14:00:04.179"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.173" endtime="20230110 14:00:04.180"/>
+</test>
+<test id="s1-t25" name="Test ?" line="52">
+<kw name="testing ?" library="myKeywords">
+<kw name="logto" library="myKeywords">
+<arg>?</arg>
+<kw name="Log To Console" library="BuiltIn">
+<arg>i am alive ${arg}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230110 14:00:04.190" endtime="20230110 14:00:04.191"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.190" endtime="20230110 14:00:04.191"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.188" endtime="20230110 14:00:04.191"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.184" endtime="20230110 14:00:04.193"/>
+</test>
+<test id="s1-t26" name="Test +-_.~@€çé=àû" line="54">
+<kw name="testing +-_.~@€çé=àû" library="myKeywords">
+<kw name="logto" library="myKeywords">
+<arg>+-_.~@€çé=àû</arg>
+<kw name="Log To Console" library="BuiltIn">
+<arg>i am alive ${arg}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230110 14:00:04.202" endtime="20230110 14:00:04.203"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.202" endtime="20230110 14:00:04.204"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.201" endtime="20230110 14:00:04.205"/>
+</kw>
+<status status="PASS" starttime="20230110 14:00:04.196" endtime="20230110 14:00:04.207"/>
+</test>
+<status status="PASS" starttime="20230110 14:00:03.457" endtime="20230110 14:00:04.210"/>
 </suite>
 <statistics>
 <total>
-<stat pass="19" fail="0" skip="0">All Tests</stat>
+<stat pass="26" fail="0" skip="0">All Tests</stat>
 </total>
 <tag>
 </tag>
 <suite>
-<stat pass="19" fail="0" skip="0" id="s1" name="Case">Case</stat>
+<stat pass="26" fail="0" skip="0" id="s1" name="Character">Character</stat>
 </suite>
 </statistics>
 <errors>
