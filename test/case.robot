@@ -1,5 +1,4 @@
 *** Settings ***
-Library    Browser
 Resource    myKeywords.resource
 
 *** Keywords ***
@@ -45,8 +44,7 @@ Test 𨱏
 Test 👩‍❤️‍💋‍👨 
     testing
 
-Test character
-    Given je suis fatigue
+
 
 
 

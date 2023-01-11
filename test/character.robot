@@ -38,8 +38,8 @@ Test 𨱏
     testing 𨱏
 Test 👩‍❤️‍💋‍👨 
     testing 👩‍❤️‍💋‍👨
-Test [test
-    testing [test
+Test [test]
+    testing [test]
 Test ^^    
     testing ^^
 Test "test"
@@ -50,7 +50,8 @@ Test \$test
     testing \\$test
 Test !
     testing !
-
+Test ?
+    testing ?
 Test +-_.~@€çé=àû
     testing +-_.~@€çé=àû
 Test *
