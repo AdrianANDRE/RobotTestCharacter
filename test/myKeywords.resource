@@ -41,8 +41,8 @@ testing 𨱏
     logto    𨱏
 testing 👩‍❤️‍💋‍👨
     logto    👩‍❤️‍💋‍👨
-testing [test]
-    logto    [test]
+testing [test
+    logto    [test
 testing ^^
     logto    ^^
 testing "test"
@@ -57,4 +57,8 @@ testing ?
     logto    ?
 testing +-_.~@€çé=àû
     logto    +-_.~@€çé=àû
-
+testing *
+    logto    *    
+testing ,
+    logto    ,
+    
