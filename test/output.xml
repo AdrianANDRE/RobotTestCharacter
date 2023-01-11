@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 6.0.1 (Python 3.8.10 on linux)" generated="20230111 17:13:58.720" rpa="false" schemaversion="3">
+<suite id="s1" name="Character" source="/home/adrian/TestMetaCharacter/test/character.robot">
+<test id="s1-t1" name="Test 𨱏" line="37">
+<kw name="testing 𨱏" library="myKeywords">
+<kw name="logto" library="myKeywords">
+<arg>𨱏</arg>
+<kw name="Log To Console" library="BuiltIn">
+<arg>i am alive ${arg}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20230111 17:13:59.179" endtime="20230111 17:13:59.179"/>
+</kw>
+<status status="PASS" starttime="20230111 17:13:59.178" endtime="20230111 17:13:59.179"/>
+</kw>
+<status status="PASS" starttime="20230111 17:13:59.178" endtime="20230111 17:13:59.179"/>
+</kw>
+<status status="PASS" starttime="20230111 17:13:59.175" endtime="20230111 17:13:59.180"/>
+</test>
+<status status="PASS" starttime="20230111 17:13:58.721" endtime="20230111 17:13:59.183"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Character">Character</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
