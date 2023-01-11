@@ -48,7 +48,7 @@ Test 'test'
     testing 'test'
 Test \$test
     testing \\$test
-Test !test
+Test !
     testing !
 Test ?
     testing ?
