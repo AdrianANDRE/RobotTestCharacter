@@ -1,6 +1,3 @@
-*** Settings ***
-Library    Browser
-
 *** Keywords ***
 logto
     [Arguments]    ${arg}
@@ -41,8 +38,8 @@ testing 𨱏
     logto    𨱏
 testing 👩‍❤️‍💋‍👨
     logto    👩‍❤️‍💋‍👨
-testing [test
-    logto    [test
+testing [test]
+    logto    [test]
 testing ^^
     logto    ^^
 testing "test"
