@@ -26,10 +26,10 @@ testing %test%
     logto    %test%
 testing ${echo test}
     logto    ${echo test}
-testing \\
-    logto    \\
-testing \/
-    logto    \/
+testing backslash
+    logto    backslash
+testing slash /
+    logto    slash
 testing $(echo test)
     logto    $(echo test)
 testing #test
@@ -46,8 +46,8 @@ testing "test"
     logto    "test"
 testing 'test'
     logto    'test'
-testing \\$test
-    logto    \\$test
+testing backslash \$test
+    logto    backslash dollar \$test
 testing !
     logto    !
 testing ?

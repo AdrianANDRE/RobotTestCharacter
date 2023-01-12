@@ -26,10 +26,10 @@ Test %test%
     testing %test%
 Test ${echo test}
     testing \${echo test}    
-Test \\
-    testing \\
-Test \/
-    testing \/
+Test backslash \\
+    testing backslash
+Test slash / 
+    testing slash
 Test $(echo test)
     testing $(echo test)
 Test #test
@@ -46,8 +46,8 @@ Test "test"
     testing "test"
 Test 'test'
     testing 'test'
-Test \\$test
-    testing \\$test
+Test backslash \\$test
+    testing backslash \$test 
 Test !
     testing !
 Test ?
