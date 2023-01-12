@@ -8,8 +8,8 @@ testing '
     logto    '
 testing ` echo test `
     logto    ` echo test `
-testing $test
-    logto    $test
+testing dollar test
+    logto     dollar test
 testing & echo test
     logto    & echo test
 testing ; echo toto
@@ -46,8 +46,8 @@ testing "test"
     logto    "test"
 testing 'test'
     logto    'test'
-testing backslash \$test
-    logto    backslash dollar \$test
+testing backslash dollar test
+    logto    backslash dollar test
 testing !
     logto    !
 testing ?

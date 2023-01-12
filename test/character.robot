@@ -9,7 +9,7 @@ Test '
 Test ` echo test `
     testing ` echo test `
 Test $test
-    testing $test
+    testing dollar test
 Test & echo test
     testing & echo test
 Test ; echo toto
@@ -47,7 +47,7 @@ Test "test"
 Test 'test'
     testing 'test'
 Test backslash \\$test
-    testing backslash \$test 
+    testing backslash dollar test 
 Test !
     testing !
 Test ?

@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.0.1 (Python 3.8.10 on linux)" generated="20230112 15:36:39.081" rpa="false" schemaversion="3">
+<robot generator="Robot 6.0.1 (Python 3.8.10 on linux)" generated="20230112 15:42:51.656" rpa="false" schemaversion="3">
 <suite id="s1" name="Character" source="/home/adrian/TestMetaCharacter/test/character.robot">
-<test id="s1-t1" name="Test slash /" line="31">
-<kw name="testing slash" library="myKeywords" sourcename="testing ${echo test}">
+<test id="s1-t1" name="Test $test" line="11">
+<kw name="testing dollar test" library="myKeywords">
 <kw name="logto" library="myKeywords">
-<arg>${echo test}</arg>
+<arg>dollar test</arg>
 <kw name="Log To Console" library="BuiltIn">
 <arg>i am alive ${arg}</arg>
 <doc>Logs the given message to the console.</doc>
-<status status="PASS" starttime="20230112 15:36:39.100" endtime="20230112 15:36:39.101"/>
+<status status="PASS" starttime="20230112 15:42:51.674" endtime="20230112 15:42:51.675"/>
 </kw>
-<status status="PASS" starttime="20230112 15:36:39.100" endtime="20230112 15:36:39.101"/>
+<status status="PASS" starttime="20230112 15:42:51.674" endtime="20230112 15:42:51.675"/>
 </kw>
-<status status="PASS" starttime="20230112 15:36:39.100" endtime="20230112 15:36:39.101"/>
+<status status="PASS" starttime="20230112 15:42:51.674" endtime="20230112 15:42:51.675"/>
 </kw>
-<status status="PASS" starttime="20230112 15:36:39.099" endtime="20230112 15:36:39.101"/>
+<status status="PASS" starttime="20230112 15:42:51.673" endtime="20230112 15:42:51.675"/>
 </test>
-<status status="PASS" starttime="20230112 15:36:39.081" endtime="20230112 15:36:39.101"/>
+<status status="PASS" starttime="20230112 15:42:51.657" endtime="20230112 15:42:51.675"/>
 </suite>
 <statistics>
 <total>
