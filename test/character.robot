@@ -26,7 +26,7 @@ Test %test%
     testing %test%
 Test ${echo test}
     testing \${echo test}    
-Test \\r
+Test \\
     testing \\
 Test \/
     testing \/
@@ -46,7 +46,7 @@ Test "test"
     testing "test"
 Test 'test'
     testing 'test'
-Test \$test
+Test \\$test
     testing \\$test
 Test !
     testing !
