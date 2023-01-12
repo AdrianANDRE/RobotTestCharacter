@@ -26,7 +26,7 @@ Test %test%
     testing %test%
 Test ${echo test}
     testing \${echo test}    
-Test backslash \\
+Test backslash \
     testing backslash
 Test slash / 
     testing slash
