@@ -58,4 +58,5 @@ testing *
     logto    *    
 testing ,
     logto    ,
-    
+testing .
+    logto    .  
