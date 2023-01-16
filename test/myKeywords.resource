@@ -82,3 +82,5 @@ testing à
     logto    à
 testing û
     logto    û  
+testing ./test
+    logto    ./test

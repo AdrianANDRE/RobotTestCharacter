@@ -80,3 +80,5 @@ Test à
     testing à
 Test û
     testing û
+Test ./test
+    testing ./test
