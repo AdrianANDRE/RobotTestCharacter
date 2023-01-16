@@ -59,4 +59,26 @@ testing *
 testing ,
     logto    ,
 testing .
-    logto    .  
+    logto    .
+testing +
+    logto    +
+testing -
+    logto    -
+testing _
+    logto    _
+testing ~
+    logto    ~
+testing @
+    logto    @
+testing €
+    logto    €
+testing ç
+    logto    ç
+testing é
+    logto    é
+testing =
+    logto    =
+testing à
+    logto    à
+testing û
+    logto    û  

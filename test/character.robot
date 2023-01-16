@@ -52,11 +52,31 @@ Test !
     testing !
 Test ?
     testing ?
-Test +-_.~@€çé=àû
-    testing +-_.~@€çé=àû
 Test *
     testing *    
 Test ,
     testing ,
- Test .
+Test .
     testing .
+Test +
+    testing +
+Test -
+    testing -
+Test _
+    testing _
+Test ~
+    testing ~
+Test @
+    testing @
+Test €
+    testing €
+Test ç
+    testing ç
+Test é
+    testing é
+Test =
+    testing =
+Test à
+    testing à
+Test û
+    testing û
